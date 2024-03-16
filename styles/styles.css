@@ -20,7 +20,7 @@ p {
     padding: 0;
 }
 main {
-    width: 810px;
+    max-width: 810px;
 }
 aside {
     width:50rem;
