@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+Setting the universal selector to have a margin and padding of 
+zero (0) will ensure that all elements
+ on the page will have no margin or padding, regardless 
+ of the browser defaults. This will make it easier
+  for you to control the layout of the page.
+
+  When the border-sizing property is set to the non-default 
+  value of border-box, this tells the browser to account for any
+  border and padding in the values you specify
+  for an element's width and height. - Box-sizing - MDN
+*/
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -11,10 +28,11 @@ h1 {
     color: steelblue;
 }
 main img {
-    width:150px;
+    width:180px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
@@ -23,21 +41,34 @@ main {
     max-width: 810px;
 }
 aside {
-    width:50rem;
-    margin: 1rem;
-    border: 5px solid rgba(0, 0, 0, 0.2);
-    padding: 2rem;
-    background-color:#163046;
-    color:#ffffff;
+    position: relative;
+    width:50rem;    
     text-align: center;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+
 footer {
     display: block;
     margin-top: 20px;
     border-top: 1px solid black;
     text-align: center;
+}
+/* Class selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(198, 224, 245);
+    color: black;
+}
+.both {
+    clear:both;
 }
