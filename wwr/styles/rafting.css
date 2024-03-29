@@ -13,18 +13,18 @@
 h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    font-size: 10rem;
+    font-size: 1.5rem;
     
 }
 header nav {
     display: flex;
     justify-content: space-around;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 p {
     font-family: HankenGrotesk, sans;
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 
 div {
@@ -36,11 +36,11 @@ div {
     top: 30px;
     left: 500px;
     color: white;
-    font-size: 8rem;  
+    font-size: 3rem;  
 }
 article {
     position: absolute;
-    top: 1000px;
+    top: 300px;
     left: 20px    
 }
 .hero img {
@@ -51,17 +51,17 @@ article {
 }
 .client img {
     float: right;
-    width: 1100px;
+    width: 25rem;
     height: auto;
     opacity: 1;
 }
 header img {
-    height: 400px;       
+    height: 8rem;       
     width: auto; 
     justify-self: center;
 }
 footer img {
-    width: 100px;
+    width: 3rem;
     height: auto;
  }
  header {
@@ -93,7 +93,7 @@ footer img {
 .history img {
     grid-column: 2;
     grid-row: 2;
-    height: 2000px;
+    height: 200px;
     width: auto;
 }
 .adventure {
@@ -102,7 +102,8 @@ footer img {
     "title title title title title"
     "ima1 ima2 ima3 ima4 ima5";
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 80px;
+    gap: 1rem;
+    just
 }
 .adventure h2 {
     grid-area: title;
@@ -124,9 +125,10 @@ footer img {
     grid-area: ima5;
 }
 figcaption {
-    font-size: 4rem;
+    font-size: 1rem;
     font-family: HankenGrotesk, sans;
 }
+
 
 footer {
     display: grid;
