@@ -103,7 +103,6 @@ footer img {
     "ima1 ima2 ima3 ima4 ima5";
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    just
 }
 .adventure h2 {
     grid-area: title;
