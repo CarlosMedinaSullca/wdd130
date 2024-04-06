@@ -6,7 +6,7 @@
     --accent2-color: #37DDD5;
 
     --heading-font: HankenGrotesk, sans;
-    --paragraph-font: HankenGrotesk, sans;
+    --paragraph-font: sans-serif;
     --nav-background-color: #4295b1;
     --nav-link-color: white;
 }
@@ -69,7 +69,7 @@ footer img {
     align-items: center;
     grid-template-columns: 1fr 3fr;
  }
- nav a{
+ nav a {
     text-decoration: none;    
 }
 .hero {
@@ -153,10 +153,12 @@ footer nav {
     display: grid;
     gap: 3rem;
 }
+h1 {
+    text-align: center;
+}
 .contactus h2 {
     text-align: center;
 }
-
 .contact {
     display: flex;
     flex-flow: row wrap;
@@ -214,3 +216,72 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+.cont {
+    position: relative;
+    font-family: var(--paragraph-font);
+    font-size: 8em;   
+    }
+
+.cont img {
+    width: 100%;
+    height: auto;
+}
+
+.cont a {
+    position: absolute;
+    top: 5rem;
+    left: 3.5rem;
+    color: white; 
+    text-decoration: none;
+}
+.trip img {
+    width: 40em;
+    height: auto;
+}
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid black;
+    font:
+      16px "Open Sans",
+      Helvetica,
+      Arial,
+      sans-serif;
+    
+  }
+  caption {
+    padding: 10px;
+    font-weight: bold;
+  }
+th,
+td {
+  border: 1px solid black;
+  padding: 4px 6px;
+}
+th {
+    vertical-align: center;
+}
+thead > tr,
+tfoot > tr {
+  background-color: var(--secondary-color);
+}
+
+.table {
+    display: block;
+    padding: 4rem;
+}
+
+  
+
+  
+  
